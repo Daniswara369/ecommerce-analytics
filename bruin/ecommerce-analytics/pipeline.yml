@@ -1,0 +1,13 @@
+name: ecommerce-analytics
+
+variables:
+  kaggle_dataset:
+    type: string
+    default: "olistbr/brazilian-ecommerce"
+  raw_data_dir:
+    type: string
+    default: "data/raw/olist"
+  duckdb_path:
+    type: string
+    default: "warehouse/duckdb.db"
+

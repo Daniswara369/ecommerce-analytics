@@ -1,0 +1,29 @@
+# bruin
+.bruin.yml
+warehouse/duckdb.db
+warehouse/*.db
+warehouse/*.wal
+warehouse/*.tmp
+
+# Secrets & Credentials
+*.json
+!package.json
+!pyproject.toml
+.env
+.env.*
+
+# Python & Environment
+__pycache__/
+*.pyc
+.venv/
+
+# Dashboard (Evidence)
+dashboard/.evidence/
+dashboard/node_modules/
+dashboard/build/
+dashboard/credentials.json
+
+# Cleanup
+debug_yaml.js
+data/
+

@@ -1,0 +1,21 @@
+name: Bruin Pipeline Validation
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Bruin CLI
+        run: curl -LsSf https://getbruin.com/install/cli | sh
+
+      - name: Validate Pipeline
+        run: |
+          cd bruin/ecommerce-analytics
+          bruin validate .
