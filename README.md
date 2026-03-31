@@ -5,9 +5,9 @@
 This pipeline ingests, transforms, and analyzes over 100k anonymous orders from Olist Store — built with Bruin and visualized with Evidence.dev — to uncover customer lifetime value, logistics performance, and seller fulfillment efficiency. 
 
 ## 🏆 Key Findings
-- 🚚 **Delivery Speed predicts Satisfaction**: Fast delivery times strongly correlate with 5-star reviews, whereas delayed items plummet in satisfaction.
-- 🗺️ **Regional bottlenecks**: More remote northern states experience average delivery delays over twice as long as southern regions due to geographic distance.
-- 🔄 **Order flow health**: The vast majority of orders successfully reach 'delivered' status, with only a tiny fraction dropping at 'canceled' or 'unavailable'.
+- **Delivery Speed predicts Satisfaction**: Fast delivery times strongly correlate with 5-star reviews, whereas delayed items plummet in satisfaction.
+- **Regional bottlenecks**: More remote northern states experience average delivery delays over twice as long as southern regions due to geographic distance.
+- **Order flow health**: The vast majority of orders successfully reach 'delivered' status, with only a tiny fraction dropping at 'canceled' or 'unavailable'.
 
 ## 🗺️ Architecture
 ```text
